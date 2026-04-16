@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700;800&family=Outfit:wght@400;500;600;700&display=swap');
+
+:root {
+  --primary-saffron: #F47B20;
+  --primary-green: #3A833C;
+  --primary-blue: #1A237E;
+  --alert-red: #CC0000;
+  --white: #FFFFFF;
+  --bg-light: #F5F5F5;
+  --text-dark: #333333;
+  --text-muted: #666666;
+  --transition: all 0.3s ease;
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --font-main: 'Inter', sans-serif;
+  --font-hindi: 'Noto Sans Devanagari', sans-serif;
+  --font-heading: 'Outfit', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--white);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+.hindi-text {
+  font-family: var(--font-hindi);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--primary-blue);
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition);
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Animations */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+.animate-slide {
+  animation: slideIn 0.6s ease-out forwards;
+}
+
+/* Common Components */
+.section-padding {
+  padding: 5rem 0;
+}
+
+.bg-gray {
+  background-color: var(--bg-light);
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  border-radius: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: var(--transition);
+}
+
+.btn-saffron {
+  background-color: var(--primary-saffron);
+  color: white;
+}
+
+.btn-saffron:hover {
+  background-color: #d66a1a;
+  transform: translateY(-2px);
+}
+
+.btn-blue {
+  background-color: var(--primary-blue);
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: #12185c;
+  transform: translateY(-2px);
+}
+
+/* Card Styling */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
+  border-bottom: 3px solid transparent;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-saffron);
+}
