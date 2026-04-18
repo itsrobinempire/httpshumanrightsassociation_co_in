@@ -1303,27 +1303,56 @@ function App() {
         boxShadow: '0 4px 20px rgba(0,0,0,0.06)'
       }}>
         <div className="container header-inner" style={{ alignItems: 'center' }}>
-          <div className="logo" style={{ background: 'none', flexShrink: 0 }}>
-            <img src={logo} alt="KFF & HRA Logo" style={{ height: '150px', width: 'auto', borderRadius: '50%', boxShadow: '0 4px 10px rgba(0,0,0,0.1)' }} />
+          <div className="logo" style={{ background: 'none', flexShrink: 0, margin: '15px 30px' }}>
+            <img src={logo} alt="KFF & HRA Logo" style={{ height: '140px', width: 'auto', borderRadius: '50%', boxShadow: '0 10px 20px rgba(0,0,0,0.15)' }} />
           </div>
-          <div className="org-names" style={{ flexGrow: 1, textAlign: 'center' }}>
-            <div style={{ 
+          <div className="org-names" style={{ flexGrow: 1, textAlign: 'center', padding: '10px 0' }}>
+            <div className="header-frame" style={{ 
               position: 'relative', 
               display: 'inline-block', 
-              marginBottom: '15px',
-              padding: '10px 25px',
-              border: '4px double #D4AF37',
+              marginBottom: '25px',
+              padding: '20px 45px',
+              border: '4px double #B8860B',
               borderRadius: '8px',
-              background: 'rgba(212, 175, 55, 0.03)',
-              boxShadow: '0 4px 15px rgba(0,0,0,0.05)'
+              background: 'linear-gradient(to bottom, rgba(255, 110, 0, 0.45) 0%, rgba(255, 110, 0, 0.45) 33.3%, rgba(255, 255, 255, 0.9) 33.3%, rgba(255, 255, 255, 0.9) 66.6%, rgba(0, 100, 0, 0.45) 66.6%)',
+              boxShadow: '0 10px 30px rgba(0,0,0,0.1)',
+              overflow: 'hidden'
             }}>
+              {/* Ashoka Chakra in Background */}
+              <div style={{ 
+                position: 'absolute', 
+                top: '50%', 
+                left: '50%', 
+                transform: 'translate(-50%, -50%)',
+                opacity: 0.12,
+                pointerEvents: 'none',
+                zIndex: 0
+              }}>
+                <svg width="150" height="150" viewBox="0 0 100 100">
+                  <circle cx="50" cy="50" r="48" fill="none" stroke="#000080" strokeWidth="1.5" />
+                  <circle cx="50" cy="50" r="5" fill="#000080" />
+                  {[...Array(24)].map((_, i) => (
+                    <line 
+                      key={i} 
+                      x1="50" y1="50" 
+                      x2={50 + 48 * Math.cos((i * 15 * Math.PI) / 180)} 
+                      y2={50 + 48 * Math.sin((i * 15 * Math.PI) / 180)} 
+                      stroke="#000080" 
+                      strokeWidth="1" 
+                    />
+                  ))}
+                </svg>
+              </div>
+
               <h1 className="hindi-text" style={{ 
                 margin: 0, 
                 fontSize: '2.8rem', 
                 fontWeight: '900',
-                color: '#D4AF37',
-                textShadow: '1px 1px 0px #fff, 2px 2px 4px rgba(0,0,0,0.15)',
-                letterSpacing: '0.5px'
+                color: '#8B6914',
+                textShadow: '1px 1px 0px #fff, 2px 2px 4px rgba(0,0,0,0.25)',
+                letterSpacing: '0.5px',
+                position: 'relative',
+                zIndex: 1
               }}>
                 क्षत्रिय स्वतंत्रता सेनानी एवं मानवाधिकार एसोसिएशन
               </h1>
