@@ -27,6 +27,8 @@ import wa15 from './assets/service_wa15.jpg'
 import wa16 from './assets/service_wa16.jpg'
 import wa17 from './assets/service_wa17.jpg'
 import wa18 from './assets/service_wa18.jpg'
+import khetsingh from './assets/khetsingh.jpg'
+import founder from './assets/founderiage.jpeg'
 import './App.css'
 
 const content = {
@@ -54,7 +56,10 @@ const content = {
     about: {
       title: "About Our Association",
       description: "The Kshatriya Freedom Fighters & Human Rights Association is dedicated to honoring the heroic legacy of Kshatriya warriors who fought for India's independence while simultaneously advocating for the fundamental rights of all citizens today. We bridge the gap between historical valor and modern justice.",
-      background: "Our association was formed to bring together the descendants and admirers of great Kshatriya freedom fighters like Babu Kunwar Singh, Ram Prasad Bismil, and countless others who sacrificed their lives for the motherland. We aim to carry forward their torch of liberty by protecting human rights in the contemporary world."
+      background: "Our association was formed to bring together the descendants and admirers of great Kshatriya freedom fighters like Babu Kunwar Singh, Ram Prasad Bismil, and countless others who sacrificed their lives for the motherland. We aim to carry forward their torch of liberty by protecting human rights in the contemporary world.",
+      directorTitle: "About the Director",
+      directorName: "Santosh Kumar Rai",
+      directorBio: "The Director was born on June 12, 1989, in Begumganj. From childhood, he witnessed poverty, helplessness of people, their struggles for survival, farmers drowning in debt for land, crops being destroyed, and the mistreatment of drivers. He saw the powerful suppressing the weak using money. At the young age of 15, he joined youth executive services, learning about events like the Godhra incident and land acquisition agreements. To raise awareness about the losses people faced, he campaigned in several districts of Madhya Pradesh alongside Honorable Dr. Sunil, former MLA of Multai. He remained active in movements of the Kisan Sangharsh Samiti, participating in protests to secure compensation for destroyed crops. He selflessly helped many workers obtain 'Shramik Cards.' When it came to drivers, he laid the foundation of an Indian Drivers' organization which grew to nearly 2.5 million members. However, due to some middlemen who started acting arbitrarily, committing fraud, taking money, and bullying others, that organization had to be deactivated. Consequently, this current organization was formed to ensure people get true justice and timely help. During the COVID-19 pandemic, he transferred funds online to help people reach home, provided medical assistance, and secured legal freedom for those falsely implicated in cases. He worked with several organizations and also pursued journalism, starting with 'Begumganj Samachar' weekly. Later, he served as a reporter for 'Jaan Yoddha' weekly, State Bureau Chief for 'GS Samachar,' and State Bureau Chief for 'Dainik Shram Sadhna' in the Jabalpur division. Today, we are moving forward to build our own strong organization to provide swift justice to the people. Best wishes, Santosh Kumar Rai, from the Kshatriya Khangar Royal Family."
     },
     mission: {
       title: "Our Mission",
@@ -401,7 +406,10 @@ const content = {
     about: {
       title: "हमारे एसोसिएशन के बारे में",
       description: "क्षत्रिय स्वतंत्रता सेनानी एवं मानवाधिकार एसोसिएशन उन क्षत्रिय नायकों की वीरतापूर्ण विरासत को सम्मानित करने के लिए समर्पित है जिन्होंने भारत की स्वतंत्रता के लिए लड़ाई लड़ी, साथ ही आज सभी नागरिकों के मौलिक अधिकारों की वकालत करते हैं। हम ऐतिहासिक वीरता और आधुनिक न्याय के बीच की खाई को पाटते हैं।",
-      background: "हमारा एसोसिएशन मातृभूमि के लिए अपने प्राणों की आहुति देने वाले अनगिनत  महान क्षत्रिय स्वतंत्रता सेनानियों के वंशजों और प्रशंसकों को एक साथ लाने के लिए बनाया गया था। हमारा लक्ष्य समकालीन दुनिया में मानवाधिकारों की रक्षा करके उनकी स्वतंत्रता की मशाल को आगे ले जाना है।"
+      background: "हमारा एसोसिएशन मातृभूमि के लिए अपने प्राणों की आहुति देने वाले अनगिनत  महान क्षत्रिय स्वतंत्रता सेनानियों के वंशजों और प्रशंसकों को एक साथ लाने के लिए बनाया गया था। हमारा लक्ष्य समकालीन दुनिया में मानवाधिकारों की रक्षा करके उनकी स्वतंत्रता की मशाल को आगे ले जाना है।",
+      directorTitle: "संचालक के बारे में",
+      directorName: "संतोष कुमार राय",
+      directorBio: "संचालक का जन्म 12 जून सन 1989 में बेगमगंज में हुआ था. बचपन से ही गरीबी, लोगों की लाचारी देखी, लोगों की प्यास के लिए लड़ते हुए देखा, जमीन के लिए किसानों को कर्ज में डूबते देखा, किसने की फसले नष्ट होते दिखा, ड्राइवर के साथ गलत है व्यवहारों को दिखा, पैसों के बल पर लोगों को दबाते हुए देखा. महज 15 वर्ष की उम्र में ही युवा कार्यकारिणी सेवाओं का भाग लेकर के गोधरा कांड जैसे कई किस्सों को जाना भू अधिकरण समझौते को दिखा. जिससे लोगों को होने वाले नुकसान से अवगत कराने के लिए माननीय डॉक्टर सुनील पूर्व मुलताई विधायक के साथ कैंपेनिंग कई जिलों में मध्य प्रदेश के कई जिलों में की वह लोगों को जागरूक किया वहीं कई किसान संघर्ष समिति के आंदोलन में सक्रिय रहकर के धरना प्रदर्शन कर लोगों को मुआवजा (फसल मुवाजा )दिलाने का कार्य किया कई लोगों को बड़ी श्रमिक कार्ड व श्रमिक कार्ड बनवाने में हेल्प की निस्वार्थ भाव से सेवक रूप मे कार्य करते आए वहीं जब ड्राइवर की बात आई तो एक भारतीय ड्राइवर संगठन की नींव रखी जिसमें करीब करीब 25 लाख लोगों का जुड़ाव रहा लेकिन कुछ बिचौलियों के कारण वह संगठन निष्क्रिय करना पड़ा क्योंकि हर क्षेत्र में अपने मुताबिक उसमें कार्य करने लगे और लोगों से कई तरीके से फ्रॉड करने लगे पैसे लेने लगे किसी से और कहीं पर तो दादागिरी करना चालू कर दिया तो उसे निष्कर्ष करके आज इस संगठन का निर्माण किया ताकि लोगों को सही इंसाफ और सही वक्त पर मदद मिल सके! कोरोना काल में कई लोगों को घर पहुंचने के लिए ऑनलाइन फंड ट्रांसफर किए कई लोगों को मेडिकल हेल्प की और कई जगह पर तो कई लोगों को झूठे प्रकरणों में फंसे होने के चलते उन्हें कानूनी रूप से मुक्त कराया इसके लिए कई संगठनों के साथ जुड़कर के कार्य किया और साथ में पत्रकारिता भी की जिस की शुरूआत किया प्रारंभिक पत्रकारिता बेगमगंज समाचार साप्ताहिक अखबार से किया इसके बाद जान योद्धा एक साप्ताहिक अखबार में रिपोर्टर्स के रूप में किया वह जी एस समाचार का स्टेट ब्यूरो चीफ में किया साथ में दैनिक श्रम साधना मीडिया के रूप में जबलपुर संभाग का स्टेट ब्यूरो के रूप में कार्य किया और भी कई अनगिनत संगठनों में जुड़ाव रहा है जैसे कि वूमेन फोर्स बेटी बचाओ अभियान, ह्यूमन राइट्स ऑर्गेनाइजेशन एंड आरटीआई संगठन व अन्य संगठनों से जोड़कर कार्य करते आए हैं! आज हम स्वयं का एक मजबूत संगठन बनाने के लिए अग्रसर है जिससे लोगों को शीघ्र न्याय दिलाया जा सके आपका शुभेक्ष संतोष कुमार राय क्षत्रिय खंगार राजवंश परिवार से."
     },
     mission: {
       title: "हमारा लक्ष्य",
@@ -752,9 +760,11 @@ function App() {
           <div className="animate-slide">
             <section className="hero-slider">
               <div className="container hero-text">
-                <span className="hindi-text" style={{ fontSize: '1.2rem', color: 'var(--primary-saffron)' }}>
-                  {content.hi.hero.title}
-                </span>
+                {lang !== 'hi' && (
+                  <span className="hindi-text" style={{ fontSize: '1.2rem', color: 'var(--primary-saffron)' }}>
+                    {content.hi.hero.title}
+                  </span>
+                )}
                 <h2>{t.hero.title}</h2>
                 <p>{t.hero.subtitle}</p>
                 <button className="btn btn-saffron" onClick={() => setPage('about')}>{t.hero.cta}</button>
@@ -764,7 +774,7 @@ function App() {
             <section className="section-padding">
               <div className="container">
                 <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
-                  <h3 className="hindi-text">{content.hi.about.title}</h3>
+                  {lang !== 'hi' && <h3 className="hindi-text">{content.hi.about.title}</h3>}
                   <h2>{t.about.title}</h2>
                 </div>
                 <div className="contact-container">
@@ -817,18 +827,38 @@ function App() {
       case 'about':
         return (
           <div className="container section-padding animate-slide">
-            <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.about.title}</h3>
+            {lang !== 'hi' && <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.about.title}</h3>}
             <h1>{t.about.title}</h1>
             <div className="card" style={{ marginTop: '2rem' }}>
               <p style={{ fontSize: '1.1rem', marginBottom: '1.5rem' }}>{t.about.description}</p>
               <p>{t.about.background}</p>
+            </div>
+
+            <div style={{ marginTop: '4rem' }}>
+              <div style={{ textAlign: 'center', marginBottom: '3rem' }}>
+                <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.about.directorTitle}</h3>
+                <h1>{t.about.directorTitle}</h1>
+              </div>
+              <div className="card" style={{ display: 'grid', gridTemplateColumns: '1fr 2fr', gap: '2rem', alignItems: 'start' }}>
+                <div style={{ borderRadius: '12px', overflow: 'hidden', boxShadow: '0 8px 25px rgba(0,0,0,0.1)' }}>
+                  <img src={founder} alt="Director" style={{ width: '100%', height: 'auto', display: 'block' }} />
+                  <div style={{ padding: '1rem', textAlign: 'center', background: 'var(--primary-blue)', color: 'white' }}>
+                    <h3 style={{ margin: 0, fontSize: '1.2rem' }}>{t.about.directorName}</h3>
+                  </div>
+                </div>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+                  <p style={{ fontSize: '1.05rem', lineHeight: '1.8', whiteSpace: 'pre-wrap' }}>
+                    {t.about.directorBio}
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         )
       case 'mission':
         return (
           <div className="container section-padding animate-slide">
-            <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.mission.title}</h3>
+            {lang !== 'hi' && <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.mission.title}</h3>}
             <h1>{t.mission.title}</h1>
             <div className="card" style={{ marginTop: '2rem' }}>
               <p style={{ fontSize: '1.2rem', marginBottom: '2rem', fontStyle: 'italic' }}>"{t.mission.statement}"</p>
@@ -846,7 +876,7 @@ function App() {
       case 'vision':
         return (
           <div className="container section-padding animate-slide">
-            <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.vision.title}</h3>
+            {lang !== 'hi' && <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.vision.title}</h3>}
             <h1>{t.vision.title}</h1>
             <div className="card" style={{ marginTop: '2rem', borderLeft: '5px solid var(--primary-saffron)' }}>
               <p style={{ fontSize: '1.2rem', marginBottom: '2rem' }}>{t.vision.statement}</p>
@@ -968,31 +998,31 @@ function App() {
                 <form onSubmit={handleWhatsApp}>
                   <div className="form-group">
                     <label>{t.contact.form.name}</label>
-                    <input 
-                      type="text" 
-                      placeholder={t.contact.form.name} 
+                    <input
+                      type="text"
+                      placeholder={t.contact.form.name}
                       value={formData.name}
-                      onChange={(e) => setFormData({...formData, name: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                       required
                     />
                   </div>
                   <div className="form-group">
                     <label>{t.contact.form.email}</label>
-                    <input 
-                      type="email" 
-                      placeholder={t.contact.form.email} 
+                    <input
+                      type="email"
+                      placeholder={t.contact.form.email}
                       value={formData.email}
-                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                       required
                     />
                   </div>
                   <div className="form-group">
                     <label>{t.contact.form.message}</label>
-                    <textarea 
-                      rows="5" 
+                    <textarea
+                      rows="5"
                       placeholder={t.contact.form.message}
                       value={formData.message}
-                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                       required
                     ></textarea>
                   </div>
@@ -1014,7 +1044,7 @@ function App() {
       case 'moa':
         return (
           <div className="container section-padding animate-slide">
-            <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.moa.title}</h3>
+            {lang !== 'hi' && <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)' }}>{content.hi.moa.title}</h3>}
             <h1>{t.moa.title}</h1>
             <p className="subtitle">{t.moa.subtitle}</p>
 
@@ -1236,6 +1266,23 @@ function App() {
               "उत्तर भारत में एक आश्चर्यजनक 22 लगातार लड़ाइयाँ जीतीं।",
               "स्वदेशी शक्ति का प्रदर्शन करते हुए विक्रमादित्य की प्राचीन उपाधि धारण की।"
             ]
+          },
+          {
+            name: "Maharaja Khet Singh Khangar",
+            nameHi: "महाराजा खेत सिंह खंगार",
+            image: khetsingh,
+            desc: [
+              "A powerful 12th-century Hindu king (1140–1212 AD).",
+              "Founded an independent Hindu republic with Garhkundar as his capital.",
+              "Established the legendary Khangar dynasty in the Bundelkhand region.",
+              "Known for his valiant leadership and establishing a sovereign state."
+            ],
+            descHi: [
+              "12वीं शताब्दी के एक प्रतापी हिंदू राजा (1140–1212 ई.)।",
+              "गढ़कुंडार (वर्तमान बुंदेलखंड) को अपनी राजधानी बनाकर एक स्वतंत्र हिंदू गणराज्य की स्थापना की।",
+              "बुंदेलखंड क्षेत्र में महान खंगार राजवंश के संस्थापक माने जाते हैं।",
+              "अपने वीरतापूर्ण नेतृत्व और एक संप्रभु राज्य की स्थापना के लिए जाने जाते हैं।"
+            ]
           }
         ];
 
@@ -1250,8 +1297,8 @@ function App() {
                     <img src={f.image} alt={f.name} />
                   </div>
                   <div className="fighter-content">
-                    <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)', fontSize: '1.1rem' }}>{f.nameHi}</h3>
-                    <h2>{f.name}</h2>
+                    {lang !== 'hi' && <h3 className="hindi-text" style={{ color: 'var(--primary-saffron)', fontSize: '1.1rem' }}>{f.nameHi}</h3>}
+                    <h2>{lang === 'hi' ? f.nameHi : f.name}</h2>
                     <div style={{ marginTop: '1rem' }}>
                       {(lang === 'en' ? f.desc : f.descHi).map((line, idx) => (
                         <p key={idx} style={{ marginBottom: '0.4rem', fontSize: '0.95rem', display: 'flex' }}>
@@ -1297,7 +1344,7 @@ function App() {
         </div>
       </div>
 
-      <header className="main-header" style={{ 
+      <header className="main-header" style={{
         background: 'linear-gradient(135deg, #ffffff 0%, #fffbf2 100%)',
         borderBottom: '4px solid var(--primary-saffron)',
         boxShadow: '0 4px 20px rgba(0,0,0,0.06)'
@@ -1307,9 +1354,9 @@ function App() {
             <img src={logo} alt="KFF & HRA Logo" style={{ height: '140px', width: 'auto', borderRadius: '50%', boxShadow: '0 10px 20px rgba(0,0,0,0.15)' }} />
           </div>
           <div className="org-names" style={{ flexGrow: 1, textAlign: 'center', padding: '10px 0' }}>
-            <div className="header-frame" style={{ 
-              position: 'relative', 
-              display: 'inline-block', 
+            <div className="header-frame" style={{
+              position: 'relative',
+              display: 'inline-block',
               marginBottom: '25px',
               padding: '20px 45px',
               border: '4px double #B8860B',
@@ -1319,10 +1366,10 @@ function App() {
               overflow: 'hidden'
             }}>
               {/* Ashoka Chakra in Background */}
-              <div style={{ 
-                position: 'absolute', 
-                top: '50%', 
-                left: '50%', 
+              <div style={{
+                position: 'absolute',
+                top: '50%',
+                left: '50%',
                 transform: 'translate(-50%, -50%)',
                 opacity: 0.12,
                 pointerEvents: 'none',
@@ -1332,21 +1379,21 @@ function App() {
                   <circle cx="50" cy="50" r="48" fill="none" stroke="#000080" strokeWidth="1.5" />
                   <circle cx="50" cy="50" r="5" fill="#000080" />
                   {[...Array(24)].map((_, i) => (
-                    <line 
-                      key={i} 
-                      x1="50" y1="50" 
-                      x2={50 + 48 * Math.cos((i * 15 * Math.PI) / 180)} 
-                      y2={50 + 48 * Math.sin((i * 15 * Math.PI) / 180)} 
-                      stroke="#000080" 
-                      strokeWidth="1" 
+                    <line
+                      key={i}
+                      x1="50" y1="50"
+                      x2={50 + 48 * Math.cos((i * 15 * Math.PI) / 180)}
+                      y2={50 + 48 * Math.sin((i * 15 * Math.PI) / 180)}
+                      stroke="#000080"
+                      strokeWidth="1"
                     />
                   ))}
                 </svg>
               </div>
 
-              <h1 className="hindi-text" style={{ 
-                margin: 0, 
-                fontSize: '2.8rem', 
+              <h1 className="hindi-text" style={{
+                margin: 0,
+                fontSize: '2.8rem',
                 fontWeight: '900',
                 color: '#8B6914',
                 textShadow: '1px 1px 0px #fff, 2px 2px 4px rgba(0,0,0,0.25)',
@@ -1354,7 +1401,7 @@ function App() {
                 position: 'relative',
                 zIndex: 1
               }}>
-                क्षत्रिय स्वतंत्रता सेनानी एवं मानवाधिकार एसोसिएशन
+                क्षत्रिय स्वतंत्र योद्धा एवं मानव अधिकार संगठन
               </h1>
             </div>
             <div className="dual-color-banner" style={{ boxShadow: '0 10px 30px rgba(0,0,0,0.15)', border: '1px solid rgba(255,255,255,0.1)' }}>
